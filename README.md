@@ -112,14 +112,88 @@ Figure 5, depict the number of accidents occure every season. According to figur
 
 ![image](https://github.com/user-attachments/assets/24cab622-3085-4980-bef7-6608ee72510b)
 
+Figure 6, compares the number of accidents based on the 4 quadrant of the city. According to figure 6, NE and NW part of the city have the highest number of accidents. This could be due to the **quality of the roads** and **density of population** in these two areas.
 
 
+### Advanced Analysis with Weather Data
 
+![image](https://github.com/user-attachments/assets/9cab418d-6d04-4d9b-ad5c-55b728a4317f)
 
+According to the pie charts above which compare the number of incidents by temperature condition of above or below zero and the number of days in 2024 when the temperature was above or below zero, even though, the temperature in 42.3% days of the year 2024 was below zero, only 32.3% of the incidents accoured in this temperature condition. This could mean that the drivers are **more careful** when the weather condition is sub-zero.
 
+#### Number of accidents on days with rainfall above a certain threshold.
 
+|    | Snowfall Category   |   Days |   Percentage % |   Incidents |   Incidents Per Day |
+|---:|:--------------------|-------:|---------------:|------------:|--------------------:|
+|  0 | Heavy Snow          |      4 |           0.01 |         142 |               35.5  |
+|  1 | Moderate Snow       |     15 |           0.04 |         443 |               29.53 |
+|  2 | Light Snow          |     30 |           0.08 |         744 |               24.8  |
+|  3 | No Snow             |    317 |           0.87 |        6164 |               19.44 |
 
+#### Correlation Analysis
+Analyze correlations between:
+- Temperature and incidents.
+- Rainfall and incidents.
+- Snowfall and incidents.
 
+Visualize correlations using heatmaps or scatter plots.
 
+#### Correlation between the temperature and the number of accidents
 
+|            |   sum_counts |   mean_temp |
+|:-----------|-------------:|------------:|
+| sum_counts |     1        |   -0.260096 |
+| mean_temp  |    -0.260096 |    1        |
 
+#### Effect of weather conditions on the number of incidents
+
+|                   |   monthly_incidents |   monthly_snow_cm |   monthly_rain_mm |
+|:------------------|--------------------:|------------------:|------------------:|
+| monthly_incidents |            1        |           0.28204 |         -0.336212 |
+| monthly_snow_cm   |            0.28204  |           1       |         -0.60573  |
+| monthly_rain_mm   |           -0.336212 |          -0.60573 |          1        |
+
+![image](https://github.com/user-attachments/assets/87631a5b-0d9f-46d7-9033-bec2286f52c8)
+
+According to figure 9 and the correlation table, there is a positive but weak correlation between the number of accidents and the amount of snow on the ground, indicating that when the snowfall is significant, the probability of accidents increases.
+
+### Geographic Analysis
+
+![image](https://github.com/user-attachments/assets/124812e4-9bf1-461f-aadf-4eb95e35fc4f)
+
+# Conclusion
+
+**From our analysis of City of Calgary traffic incidents, we observed the following:**
+
+We observed that the hotspots for traffic incidents in Calgary were primarily grouped around three key areas/roadways. The main hot spots by far were: The Downtown Core, Deerfoot Trail, and Glenmore Trail. These locations were all hot spots.  
+
+In terms of the impact of weather on traffic incidents, we observed that counter to what intuition might suggest, there were fewer incidents on days with significant rainfall. We could explain this by suggesting that drivers are more careful when their vision is obstructed by the rain. However, on days with significant snowfall, incident rates did increase by a notable amount. This is possibly because snow will affect the road driving conditions much more than rain.  
+
+For the effect of temperature on incidents, there was a weak correlation. As temperatures decrease, incidents increased slightly.  
+
+Finally, the times of the day when most incidents occurred were the expected rush hour times of: 8am, 3pm, 4pm, and 5pm. This matches that an increased presence of traffic results in more incidents.
+
+## References
+
+The City of Calgary (2023) Calgary Safer Mobility Plan – Annual Briefing 2023.  
+Available at: https://www.google.com/search?q=Calgary+Safer+Mobility+Plan+%E2%80%93+Annual+Briefing+2023&oq=Calgary+Safer+Mobility+Plan+%E2%80%93+Annual+Briefing+2023&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABiABBiiBNIBBzU1NWowajeoAgiwAgE&sourceid=chrome&ie=UTF-8#:~:text=Safer%20Mobility%20Plan%20Annual%20Briefing%202023%20%2D%20The%20City%20of%20Calgary (Accessed: 17 January 2025).
+
+Government of Canada (n.d.) Historical Weather and Climate Data.  
+Available at: https://climate.weather.gc.ca/climate_data/daily_data_e.html?StationID=50430 (Accessed: 17 January 2025).
+
+Historical Weather and Climate Data.  
+Available at: https://climate.weather.gc.ca/climate_data/daily_data_e.html?StationID=50430 (Accessed: 17 January 2025).  
+
+Khandekar, M.L. (2002) Trends and Changes in Extreme Weather Events: An assessment with focus on Alberta and Canadian Prairies. Available at: Trends and Changes in Extreme Weather Events: (Accessed: 17 January 2025).
+
+Open Calgary (2025) Traffic Incidents.  
+Available at: https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556/about_data (Accessed: 17 January 2025).
+
+OpenStreetMap (2025) Open Street Map.  
+Available at: https://www.openstreetmap.org (Accessed: 17 January 2025).
+
+Syed Tauhid Ullah Shah (2025) Data601W25
+Available at: https://github.com/SyedTauhidUllahShah/DATA601W25 (Accessed: 11 February 2025)
+
+Traffic Incidents | Open Calgary.  
+Available at: https://data.calgary.ca/Transportation-Transit/Traffic-Incidents/35ra-9556/about_data (Accessed: 17 January 2025).
