@@ -137,8 +137,6 @@ Analyze correlations between:
 - Rainfall and incidents.
 - Snowfall and incidents.
 
-Visualize correlations using heatmaps or scatter plots.
-
 #### Correlation between the temperature and the number of accidents
 
 |            |   sum_counts |   mean_temp |
