@@ -82,7 +82,7 @@ On figure 2, we further focus on number of accidents during the rush our. As men
 |  5 | Saturday  |            898 |
 |  6 | Sunday    |            695 |
 
-![image](https://github.com/user-attachments/assets/f77bfd31-8dbd-4ff9-afad-b0b153dd9267)
+![percentage of incidents](https://github.com/user-attachments/assets/6da53001-70b8-4428-b021-bfaa0a54d266)
 
 Figure 3, focuses on the number of daily accidents during the week. According to the pie chart, during the workdays, approximately 14 - 16% of the accidents occure, however, on the weekends, these numbers drop to 9.3 and 12% for Sundays and Saturdays, respectively. This could be due to the fact that more people tend to stay home during the weekend days.
 
@@ -117,7 +117,8 @@ Figure 6, compares the number of accidents based on the 4 quadrant of the city. 
 
 ### Advanced Analysis with Weather Data
 
-![image](https://github.com/user-attachments/assets/9cab418d-6d04-4d9b-ad5c-55b728a4317f)
+![day vs temp](https://github.com/user-attachments/assets/2268182f-774b-4dc6-846f-69c78af40438)
+
 
 According to the pie charts above which compare the number of incidents by temperature condition of above or below zero and the number of days in 2024 when the temperature was above or below zero, even though, the temperature in 42.3% days of the year 2024 was below zero, only 32.3% of the incidents accoured in this temperature condition. This could mean that the drivers are **more careful** when the weather condition is sub-zero.
 
