@@ -37,7 +37,7 @@ This project aims to explore traffic accident patterns in Calgary under various 
 <p style='text-align:justify;'>Public Awareness and Preparedness: As publicly accessible information, the results can raise awareness among drivers and stakeholders, fostering greater preparedness and encouraging safer driving behaviors.</p>
 <p style='text-align:justify;'>Ultimately, these efforts aim to enhance the quality of life for Calgary’s residents, ensuring safer and more efficient travel across the city under all weather conditions.</p>
 
-## **Dataset and Analysis**
+## **Dataset**
 <p style='text-align:justify;'>For this project, we will use two datasets, both provided in .csv format. These datasets are structured and tabular, with each row representing either a traffic incident or a day of weather data.</p>
 
 1. **City of Calgary Traffic Incidents**
@@ -49,17 +49,17 @@ This project aims to explore traffic accident patterns in Calgary under various 
 3. **Open Street Map (2025)**:
     The map used for all geographic visualizations was sourced from [Open Street Map](https://www.openstreetmap.org). Geopandas and Plotly automatically sourced the data from Open Street Map when constructing the visualizations.
 
-### **Data analysis and Visualization**
+## **Analysis and Visualizations**
 Followings are the result of our analysis:
 
-#### Time-Based Visualizations (Hour)
-##### Visualize incidents by hour with peaks highlighted.
+### Time-Based Visualizations (Hour)
+#### Visualize incidents by hour with peaks highlighted.
 
 ![image](https://github.com/user-attachments/assets/c312e0b2-2fee-49f7-8229-a3b803dce8d0)
 
 Figure 1, shows the total number accidents occured in 2024 on every hour of the day. As we can see the number of accidents see a dramatic rise in the number of accidents during the morning and afternoon rush hours when people go and come back from work. This is further backed by [Calgary city website](https://www.calgary.com/blog/driving-calgary-ab/) in which according to it "traffic congestion peaks between 7:00–9:00 a.m. and 4:00–6:00 p.m.".
 
-##### Visualize incidents During Rush Hour vs. Non-Rush Hour
+#### Visualize incidents During Rush Hour vs. Non-Rush Hour
 |    | Hour          |   Total |
 |---:|:--------------|--------:|
 |  0 | Not rush hour |    4314 |
@@ -69,8 +69,8 @@ Figure 1, shows the total number accidents occured in 2024 on every hour of the 
 
 On figure 2, we further focus on number of accidents during the rush our. As mentioned before, according to the city of Calgary website, 6 hours of the day is considered the rush hour and acording to this pie chart, **42%** of the incidents during the day, occur in the **6h rush hours**.
 
-#### Time-Based Visualizations (Day)
-##### Visualize incidents by day.
+### Time-Based Visualizations (Day)
+#### Visualize incidents by day.
 
 |    | Day       |   Daily_counts |
 |---:|:----------|---------------:|
@@ -87,21 +87,21 @@ On figure 2, we further focus on number of accidents during the rush our. As men
 Figure 3, focuses on the number of daily accidents during the week. According to the pie chart, during the workdays, approximately 14 - 16% of the accidents occure, however, on the weekends, these numbers drop to 9.3 and 12% for Sundays and Saturdays, respectively. This could be due to the fact that more people tend to stay home during the weekend days.
 
 
-#### Time-Based Visualizations (Month)
-##### Visualize incidents by month.
+### Time-Based Visualizations (Month)
+#### Visualize incidents by month.
 
 ![image](https://github.com/user-attachments/assets/5fa6d2d4-ea78-45b9-a902-8560907b53dc)
 
 According to figure 4,  November (876 incidents), followed by January (767) and October (733) have the highest number of accidents. Month of April with 448 incidents shows the lowest number driving accidents, suggesting that traffic incidents decrease during early spring.
 
-###### Visualize incidents by season.
+##### Visualize incidents by season.
 
 ![image](https://github.com/user-attachments/assets/7f70306d-b050-4dbb-aabc-9ab1b90b060d)
 
 Figure 5, depict the number of accidents occure every season. According to figure 5, **fall season** has the highest number of trafic incidents (29%) which could be due to changing weather conditions such as rain, fog or early snow. **Winter** is the second season with the highest number of incidents, which could be due to icy roads and lower road visibility.
 
-####  Time-Based Visualizations (Others)
-##### Visualization of Incidents by Quadrant.
+###  Time-Based Visualizations (Others)
+#### Visualization of Incidents by Quadrant.
 
 |    | QUADRANT   |   Total_count |
 |---:|:-----------|--------------:|
@@ -115,14 +115,14 @@ Figure 5, depict the number of accidents occure every season. According to figur
 Figure 6, compares the number of accidents based on the 4 quadrant of the city. According to figure 6, NE and NW part of the city have the highest number of accidents. This could be due to the **quality of the roads** and **density of population** in these two areas.
 
 
-### Advanced Analysis with Weather Data
+## Advanced Analysis with Weather Data
 
 ![day vs temp](https://github.com/user-attachments/assets/2268182f-774b-4dc6-846f-69c78af40438)
 
 
 According to the pie charts above which compare the number of incidents by temperature condition of above or below zero and the number of days in 2024 when the temperature was above or below zero, even though, the temperature in 42.3% days of the year 2024 was below zero, only 32.3% of the incidents accoured in this temperature condition. This could mean that the drivers are **more careful** when the weather condition is sub-zero.
 
-#### Number of accidents on days with rainfall above a certain threshold.
+### Number of accidents on days with rainfall above a certain threshold.
 
 |    | Snowfall Category   |   Days |   Percentage % |   Incidents |   Incidents Per Day |
 |---:|:--------------------|-------:|---------------:|------------:|--------------------:|
@@ -131,7 +131,7 @@ According to the pie charts above which compare the number of incidents by tempe
 |  2 | Light Snow          |     30 |           0.08 |         744 |               24.8  |
 |  3 | No Snow             |    317 |           0.87 |        6164 |               19.44 |
 
-#### Correlation Analysis
+### Correlation Analysis
 Analyze correlations between:
 - Temperature and incidents.
 - Rainfall and incidents.
