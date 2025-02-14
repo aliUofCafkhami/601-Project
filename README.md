@@ -160,6 +160,8 @@ According to figure 9 and the correlation table, there is a positive but weak co
 
 ![image](https://github.com/user-attachments/assets/124812e4-9bf1-461f-aadf-4eb95e35fc4f)
 
+The above map shows all incident locations in the dataset. The darker each point is, the more incidents occurred at that specific location. From the distribution of the points, we see that there are a high number of incidents in the Downtown Core, on Deerfoot Trail, and on Glenmore Trail. The remaining points were all distributed fairly randomly around the city, with more incidents occurring on major highways and areas closer to the center of the city.
+
 # Conclusion
 
 **From our analysis of City of Calgary traffic incidents, we observed the following:**
