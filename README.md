@@ -100,11 +100,17 @@ According to figure 4,  November (876 incidents), followed by January (767) and 
 
 Figure 5, depict the number of accidents occure every season. According to figure 5, **fall season** has the highest number of trafic incidents (29%) which could be due to changing weather conditions such as rain, fog or early snow. **Winter** is the second season with the highest number of incidents, which could be due to icy roads and lower road visibility.
 
+####  Time-Based Visualizations (Others)
+##### Visualization of Incidents by Quadrant.
 
+|    | QUADRANT   |   Total_count |
+|---:|:-----------|--------------:|
+|  0 | NE         |          2229 |
+|  1 | NW         |          1600 |
+|  2 | SE         |          2294 |
+|  3 | SW         |          1370 |
 
-
-
-
+![image](https://github.com/user-attachments/assets/24cab622-3085-4980-bef7-6608ee72510b)
 
 
 
